@@ -27,4 +27,4 @@ sudo usermod -s $(which fish) $LOGNAME
 # add ssh-key to ssh agent
 # eval 'ss-agent -s';ssh-add ~/.ssh/<insertkey
 # if fishing https://unix.stackexchange.com/questions/48863/ssh-add-complains-could-not-open-a-connection-to-your-authentication-agent
-#
+# lolol
