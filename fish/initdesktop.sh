@@ -23,4 +23,6 @@ echo 'starship init fish | source' >> ~/.config/fish/fish.config
 echo -e "\e[1;31m Changing the shell to fish, goodbye bash \e[0m"
 sudo usermod -s $(which fish) $LOGNAME
 
-# Add personal access token from githubs to cache so we dont need password
+# Add personal access token from githubs to cache so we dont need password or
+# add ssh-key to ssh agent
+# eval 'ss-agent -s';ssh-add ~/.ssh/<insertkey
